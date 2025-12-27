@@ -8,7 +8,6 @@ This project is designed for analyzing and recognizing cloned (deepfake) and rea
 ```
 ├── analysis.ipynb           # Jupyter notebook for waveform analysis and visualization
 ├── clone_real_data.py       # Script to prepare/clone real data for experiments
-├── clone.ipynb              # Notebook for cloning experiments
 ├── convert_audio.ipynb      # Notebook for audio format conversion
 ├── record_sentences.py      # Script to record sentences for dataset
 ├── requirements.txt         # Python dependencies
@@ -23,13 +22,7 @@ This project is designed for analyzing and recognizing cloned (deepfake) and rea
 │       │   └── meta.json    # Metadata for 'sample1_ar'
 │       └── sample1_tr/      # Real samples for speaker 'sample1_tr'
 │           └── meta.json    # Metadata for 'sample1_tr'
-├── my/                      # User-specific experiments/data
-│   └── cloning/
-│       ├── enes/
-│       │   └── cloned/      # Cloned samples for user 'enes'
-│       └── ibo/
-│           ├── cloned/      # Cloned samples for user 'ibo'
-│           └── orijinal/    # Original samples for user 'ibo'
+
 ```
 
 ## Data Structure
