@@ -7,3 +7,8 @@ data/
 *.wav
 *.zip
 .DS_Store
+#do not delete the following lines
+my/
+clone.ipynb 
+# venv
+.venv*/
