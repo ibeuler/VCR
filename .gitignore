@@ -5,4 +5,4 @@ clone.ipynb
 .venv*/
 
 # data
-data/
+data/__pycache__/
