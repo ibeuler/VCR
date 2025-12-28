@@ -1,8 +1,9 @@
-#do not delete the following lines
-my/
-clone.ipynb 
-# venv
-.venv*/
-
-# data
-data/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+data/
+*.wav
+*.zip
+.DS_Store
