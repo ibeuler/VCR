@@ -3,6 +3,13 @@
 ## Project Overview
 This project is designed for analyzing and recognizing cloned (deepfake) and real voice samples. It provides tools for data preparation, audio processing, and waveform analysis to help distinguish between real and cloned audio.
 
+## License and Citation
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Please cite this repository when using or redistributing the code, models, or datasets. A suggested citation format:
+
+   Deep_Fake_Recognition (2025). GitHub repository: <replace-with-repo-URL>.
+
+Replace `<replace-with-repo-URL>` with the repository or release URL you used. See the `LICENSE` file for full license text and attribution requirements.
+
 ## Codebase Structure
 
 ```
