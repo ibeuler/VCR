@@ -1,0 +1,319 @@
+Tamam, transkripti aşağıya komple yazıyorum.
+
+Evet, şu an kayıt altında arkadaşlar. Eee,
+sorularınızı chat ekranından yazabilirsiniz. Onu da
+açtım. Eee,
+mesaj göndermesine izin ver. Yeni özellikler gelmiş.
+O şekilde şey yapıyoruz. Şimdik öncelikle e projeniz de artık eee
+belirlemiştim, gönderdim diye hatırlıyorum size. Projelerinizi de eee
+proje değerlendirme formunu gönderdim mi onu bilmiyorum. Onu da göndereceğim.
+Senen de geldi. Evet
+gelenler oluyor. Biraz daha bekleyeyim. Eee, bundan sonra yani bugün transform
+yani dönüşümleri anlatacağım artık. Ondan sonra da eee, ağırlıkla eee,
+üzerinde eee, çalışmalar yaparak eee örnekler çözerek devam edeceğiz. Yani
+eee bundan sonrası artık proje final arkadaşlar projenizden olacak. Eee, vize
+notlarınız çok iyi değil de bazı arkadaşlarınız gerçekten eee,
+düşük alan var. eee, yüksek alanda var. Eee, ama hani bazı şeyler var,
+eksiklikler vardı. Ben onun videosunu daha göndermedim. Daha hazırlayamadım.
+Eee, biraz yoğun hafta sonu geçti. Eee, bu hafta sonu onun eee, anlatım
+videosunu da göndereceğim çözümlerin. Eee, nerede hata yaptınız? Onları da tek
+eee, göstereceğim. Ama kağıdınıza bakmak isterseniz her
+zaman için odama gelip bakabilirsiniz arkadaşlar.
+Eee, bunun dışında, eee, projenizde, eee, dediğim gibi, eee, bazı, eee,
+şeylere çok detaylı olarak yazdım. Ha başka projeler de verebilirim.
+Verebilirdim ama, eee, bu konu arkadaşlar sanki biraz daha eee,
+güncel hale gelecek diye böyle seçtim. Eee, biraz da araştırma da
+yapabilirsiniz. eee zaten göndermiştim size. Hani
+onu eee hazırlayabilirsiniz. Veri toplayacaksınız. Veriyi
+arkadaşlarınızdan, çevrenizden toplayabilirsiniz. Ama tabii burada
+eee şunu söyleyeyim arkadaşlar. İzin almadan yapmayın. Eee çünkü eee etik
+değil. Eee bilimde veya araştırmalarda hep izin alırız. eee, akademik yayın
+için kullanmayacağız. Onu da söyleyeyim. Hani toplamış olduğunuz verileri ben eee
+kullanmayacağım akademik veri amaçlı ama eee ilerleyen zamanda buna benzer bir
+çalışmayı akademik olarak da düşünmüyor değilim. Düşünüyorum. Hani eee Türkçe
+bir veri seti kurgulamak isterim. Eee o konuda çalışmak isteyen arkadaşlar da
+bana müracaat edebilir. Evet bir arkadaş daha. Yusuf da geldi.
+Eee, diğer arkadaşlar daha sonra seyredeceğim diyen vardı.
+Evet. Eee, şimdi gelelim bugünkü konumuza. Eee, ben arkadaşlar, eee, size
+zaten eee, sunumu göndermiştim. Yani daha doğrusu
+sunum halinde eee not eleme yaptırdım ama hani orada eee biraz grafikler güzel
+hani ama bazı ufak tefek eee problemler var. Eee o yüzden ben anlatım metnimi
+eee yani o sunumu hazırlamak için bir anlatım metni eee hazırlamıştım. en
+azından neler anlatacağım benim için de eee
+böyle yol gösterici bir metin. Eee şimdilik ben onları eee biraz açarak ve
+eee ne zaman nasıl kullandığımızı eee ve kavramları da biraz daha açarak anlatmak
+istiyorum. Şimdi öncelikle eee dönüşüm kavramından bahsedeceğiz arkadaşlar. Eee
+dönüşüm nedir? Eee neden dönüşüm yapıyoruz?
+eee onlardan bahsedeceğim. Aslında şunu da söyleyebilirim. Hani biz burada
+sinyal işlemede dönüşümler dediğimiz zaman eee bu kavram kesinlikle eee
+sadece a sinyal işlemede, görüntü işlemede kullanılıyor, başka alanlarda
+kullanılmıyor anlamına gelmesin. Eee gerçek dünyada günümüzde makine
+öğrenmesinde yapay zekanın diğer eee alanlarında yani derin öğrenmede aslında
+biz eee bu dönüşümleri yapıyoruz. Çünkü eee dönüşüm demek aslında arkadaşlar
+eee baktığımız alanı bir başka alana biz
+buna eee uzay da diyoruz arkadaşlar. Onu da
+bakmak için kullanıyoruz. Yani gerçek dünyada karşılaştığımız sinyaller bunlar
+nelerdir arkadaşlar? ses, görüntü, EEG, radar, sensör verileri IOT cihazlarından
+aldığımız temel olarak aslında iki eksende tanımlanmakta. Bir tanesi eee
+zaman ekseni arkadaşlar. Zaman ekseni olduğu zaman ne yapıyorduk? Zaman domeni
+diye adlandırdığımız bir saniye kalemimi eee alayım. Kırmızıyı da şey yapayım.
+Böyle altını çizeyim. eee zaman domeni veya uzay domeni genel olarak eee o
+şekilde tanımlıyoruz veya zaman ya da uzay ekseni diyebiliriz. Zaman
+ekseni biliyorsunuz bunun t olduğunu biliyorsunuz. ya da uzay ekseni.
+Elimi koyduğum zaman garip garip şeyler çıkıyor. Bu da x y eee olarak karşımıza
+geliyor. Tabii eee zaman uzay dediğimiz zaman bir tanesi bir boyutlu zaman
+olduğu zaman eee uzay dediğimiz zaman da iki boyutlu eksenler olabiliyor.
+Eee ama burada eee şunu söyleyebilirim
+arkadaşlar. Eee ben bu derste bahsetmiyorum ama zaman
+eee ve uzay eksenlerinin bir arada geldiği sinyallerimiz de var. Mesela
+örnek olarak eee video görüntüleri hem eee uzay ekseninde eee bir sinyale sahip
+hem de zaman ekseninde bir eee sinyale sahip. eee bu tarz eee sinyallerimiz de
+var. Bunlar da artık üç boyutlu veya daha büyük boyutlu uzaylar da eee
+olabiliyor. Biz bunlara aslında uzay diyoruz. Eee domen diyoruz. Eee bunları
+eee söyleyebilirim. Şimdi eee ses arkadaşlar eee bir boyutlu zaman
+sinyalidir ve eee yani dediğim gibi eee ses aslında x ekseninde
+eee zamana göre değişen bir büyüklüktür diye tanımlayabilirim. Yani ben burada
+eee yazmamış olabilirim. Bunları dediğim
+gibi ben eee biraz yorumlayacağım. eee, örneğin mikrofon çıkışından, eee,
+voltajın zamana göre değişimi benim sesimi şey yapıyor. Eee, dijital sesimi
+alıyor. Ama, eee, aynı zamanda, eee, analog olarak düşünecek olursak havadaki
+basıncın zamana göre değişimi de eee, bizim için bir ses olarak geri
+dönebilir. Ve grafiklerde genelde yatay eksen zaman, dikey eksen de gen olarak
+karşımıza gelir arkadaşlar. Yani sesleyecek
+olursak, eee, yatay eksenim
+zaman dikey eksenim
+benim gelik
+veya amplitude diye geçer arkadaşlar. gene eee kağıdı düzgün
+kullanamama belirsine sahibim. Evet. Eee görüntüye gelecek olursak
+arkadaşlar işte görüntüde eee benim uzaydaki veya eee ekrandaki,
+eee konuma göre değişen parlaklık veya renk değerleridir.
+Eee genel olarak biz burada tanımı şu şekilde veririz. X M N
+şeklinde M
+satırdır. N de sundur. Yani satır demek yukarıdan
+aşağı doğru sütun da sağdan sola doğru demektir. Eee, yukarıdan aşağı doğru
+olduğu için arkadaşlar eksenim 0.0 da sıfır noktası her zaman için
+sağ eee sol yukarıdan mı başlar? Eee
+az önce sütunu soldan dedim. Sağdan sola dedim. Eee sağdan
+sola değil arkadaşlar. sağacak bu şeyde artar mesela değil zaman eee sağa doğru
+da artar. Yani bu da benim için bir değerdir. Burada arkadaşlar buradaki her
+bir piksel değeri, her bir kare benim gri seviyesi değerim veya kullanmış
+olduğum renk uzayına göre. Bakın renk uzayı diye bir kavramım var.
+Bunları daha detaylı daha sonra göreceğiz. Özellikle ikinci dönem eğer
+bu dersin devamı olan bilgisayar görüyü almak isterseniz renk uzayıma göre eee o
+uzaydaki renk bileşiğine karşılık gelir ki siz en çok bildiğiniz renk uzayı
+arkadaşlar RGB yani red grein blue olan eee kırmızı yeşil mavi renk
+bileşenleridir. Bu da
+bir değerdir. Eğer ben tek boyutlu şekilde vermişsem yani iki boyutlu
+pardon şekilde vermişsem arkadaşlar burada benim bir matrisim ortaya çıkar
+ve bu matris genel olarak seviyesi değerlere alır. Eğer ben renk
+uzayı yani renkli bir görüntü vermişsem aslında benim 3 tane
+RGB eee için 3 tane bu şekilde iki boyutlu
+matrisim olmaktadır. Her bir eee matrisim arkadaşlar o renk uzayındaki
+eee renge bir değerdir. Bir saniye. Bir arkadaşım daha geldi.
+Bir saniye. Ne oldu? Heh. Kabul et. O şekilde karşıma gelmekte.
+Evet. Şimdi eee
+bunları iki boyutlu matris olarak düşünebiliriz demiştik.
+Eee, eğer ben mesela video alırsam buna bir
+de Tamamı eklemiş oluyorum. Şimdik, eee, bu
+derin öğrenme çalışmalarında genelde tensörler denilen bir kavramdan
+bahsederiz aslında. Tensörler arkadaşlar hatta şöyle eee, denilir işte skaler,
+eee, bu bir nokta olarak, eee, ifade edilir. Vektör.
+Bu bir aray olarak ifade edilir. 1 2 3 4 gibi. Ondan sonra matris. Zaten
+matrisi biliyorsunuz. Bu da bir eee matris şeklinde ifade edilir.
+Yani iki boyutlu aray şeklinde ifade edilir. Bir de tensör diye bir kavramım
+var. Sensör de arkadaşlar matrisin bir de iç eee uzayı var. Yani en boyutlu
+eee matrisler şeklinde ifade edilmektedir. Burada aslında renk
+uzaylarını kullandığımız zaman veya eee
+video şeklinde bir de Tayy zamanı eklediğimiz zaman arkadaşlar bu da benim
+bir tensörüme karşılık gelir. Bunun hesaplamalarını yapmak gerekir. Bunu eee
+söylemiş olayım. Şimdik eee
+ses için dalga formunun iniş çıkışları genlik değişimleri
+görüyoruz. Buna zaman domeninde onları veriyoruz demiştik. Eee uzay domeninde
+de görüntünün eee parlaklıkları, parlak
+bölgeler, karanlık bölgeler, desenler bulunabilir diyoruz. Bunu nereden
+biliyoruz? Daha önceki derslerimizde hani bahsetmiştim. Eee, ben aslında
+kenarları bulmak istersem o bölgenin, eee, türevini alırsam, eee,
+parlak bölgeyle karanlık bölgeler veya desenler ortaya çıkar demiştim.
+Şimdi bu gösterime baktığımız zaman sinyallerde
+eee şu soruların cevabını veriyor. Nerede veya ne kadar büyük olduğunu
+söylüyor. Ama bu cevaplar tek başına yeterli değildir. Hani ben burada
+şimdilik eee bu soruların cevabını eee çözümleyecek
+olursam eee bazı başka bilgiler de izleyebilirim.
+Mesela, eee, ses düşünecek olursak bu seste tamam, eee,
+benim eee ne kadar büyük olan eee, cevabını
+verebiliyor. Çünkü ampli ampli etmiş olduğum sesten arkadaşlar e
+genliğinden ne kadar büyük olduğunu verebiliyorum. Ama eee
+düşük frekans yani biz buna bas adını veriyoruz veya yüksek frekans buna tiz
+adını veriyoruz. Bunlar ne kadar var? Bunu eee bulmamız eee
+mümkün değil. Ya biz buna hangi frekans bileşenlerine eeeen oluşuyor sorusunun
+cevabını araştırmamız lazım. Aynı şekilde bir görüntüde ince detaylara
+bakmak istersek biz buna yüksek uzaysal frekans mı baskın eee yoksa geniş
+yumuşak geçişli bölgeler biz buna düşük alçak uzaysal frekans mı baskın? bunları
+analiz etmemiz için gene bazı işlemler yapmamız gerekiyor.
+Aynı şekilde arkadaşlar hani ben burada şimdi eee sadece ses ve görüntü
+üzerinden konuşuyorum ama eee ben bunu eee
+EKEKG, EEG veya diğer endüstriyel bileşenler için de aynı şekilde eee
+düşünebilirim. Yani aslında burada yapmış olduğumuz bütün eee eylemler eee
+birbirine çok benziyor. İşte EKG’de ne diyor? Eee doktorların incelediği klasik
+T dalga formu var. Bu eee frekans domeninde eee ölçülüyor. Eee
+yani frekans domeni dediğimiz zaman arkadaşlar
+eee frekansa dönüştürmem lazım. Ama ben bu
+verileri nerede alıyorum arkadaşlar? Hepsini zaman domeninde alıyorum. Yani
+ne yapıyorum? Eee, gelen sinyali bir zamana, t zamanına içerisinde işlem
+yapıyorum. Eee, toplamış oluyorum. O zaman ben bunları, eee, dönüştürmem
+gerekiyor. Hangi domene dönüştürmem gerekiyor? Kendi aralarında eee,
+dönüşümler yapmam gerekiyor. İşte burada onları şey yapıyorum. Peki
+bu dönüşümleri eee başka uzaya taşımak istersem neler
+yapmam lazım? İşte biz bu kavramı arkadaşlar dönüşüm kavramı olarak
+adlandırıyoruz. Yani genel olarak toplamış olduğumuz veriler zaman veya
+uzay domeninde olduğu için bunların frekans içeriğini, enerjisinin
+frekansların nasıl dağıldığını, eee, ne şekilde dağıldığını, değiştiğini
+anlayabilmek için farklı bir gösterime dönüştürmem gerekiyor. Biz bu, eee,
+işlemlere dönüşüm, transformation adını veriyoruz. Şimdilik bu derse de
+biraz bu kavramlardan bahsedeceğim ya veya bunun tanımını şu şekilde e
+söyleyebilirim. Bir sinyali onun farklı bir bakış açısıyla görebileceğimiz
+matematiksel olarak başka bir uzaya, domine, alana taşıma işlemine biz
+dönüşüm adını veriyoruz. İşte eee burada
+uzay dediğimiz zaman hani eee genel olarak uzayı biz eee
+astronomdaki o uzay gibi tanımlıyoruz ama eee aslında eee matematik dersleri
+aldığınız için biliyorsunuz eee uzay tanımı bizim için bir niceliğin
+tanımlandığı eksenler kümesi olarak geçiyor. İşte bizde neler vardı? Zaman
+ekseninden bahsettik. eee, uzamsal, spatial yani piksel
+koordinatların, x, y koordinatlarından bahsettik. Aslında bu biz bunlara
+uzamsal uzay adını veriyoruz. frekans ekseni eee diyebiliyoruz ve buna benzer
+şekilde başka uzaylarda tanımlayabiliriz ki tanımlanıyor artık günümüzde. Eee
+bunlar yapılabiliyor ama dönüşüm yapıldığında arkadaşlar
+sinyalin sayısal içeriği değişmekte. Yani, eee, bu dönüşümler sonucunda
+yani şöyle söyleyeyim. y fx eee dönüşümü sonucunda şu x’ler artık bir y e
+fonksiyonuna dönüşüyor.
+Yeni bir temsil oluyor. Eee ve yeni katsayılar alıyor.
+Tabii bu yeni dönüşüm, yeni katsayılar demek arkadaşlar aslında eee bilgimin
+farklı bir hale dönüşmesi anlamına geliyor. Özellikle makine öğrenmesi
+yapıyorsanız bu makine öğrenmesiyle buradan yeni bilgiler
+çıkartabiliyorsunuz. Normal şartlarda
+istenilen şey şudur arkadaşlar. X de
+FY’ye eşit olsun. Yani şöyle bir fonksiyon üretebilir miyiz acaba
+isteriz? Yani bu bir başka fonksiyon şu şekilde
+olabilir mi? Yani ters dönüşüm yapılabilir eee fonksiyonlar, dönüşümler
+yapabilir miyiz? Çoğu zaman eee bu mümkün olmamakta arkadaşlar. bilgi
+kaybolmasa bile o bilgi dönüşürken ufak tefek eee değişimler oluyor ve ters
+fonksiyonları olmamış oluyor. Şimdi gene eee kavramları biraz daha eee
+şey yapacağım. Eee neden başka bir uzaya taşımak istiyoruz? Şimdi her uzay
+sinyalin farklı özelliklerini ön plana çıkartıyor demiştik. Mesela zaman uzayı
+aslında bana ne zaman oldu, ne oldu sorusunun cevabını veriyor. Yani ne
+zaman ne oldu? Frekans uzayı. Hangi frekanslar var ve bu frekanslar ne kadar
+güçlü, ne kadar yoğun? Eee sorusunun cevabını veriyor. Ama mesela zaman
+frekans uzayım varsa hangi frekans ne zaman ortaya çıktı cevabını verecek.
+uzaysal frekans uzayı varsa görüntüde hangi tür desenler, detaylar var
+sorusunun cevabını verecek. Yani aslında ben eee aynı sinyali farklı uzaylarda
+çevirebildiğim zaman o zaman aslında ne yapabiliyorum
+arkadaşlar? Aynı olayı farklı kameralardan izliyormuş gibiyim. Yani
+her kamera farklı detayı inceler. Yani her eee
+farklı detayı bana cevabını veriyor ve bu farklı detayın cevabını ben eğer eee
+ölçebiliyorsam, yakalayabiliyorsam işte kamera benzetmesi gibi şey
+yapabilirsem arkadaşlar işte o zaman o filmde eee daha farklı yönden bakıyor
+olabilirim. O yüzden genelde yaptığımız eee
+dönüşümler arkadaşlar eee zaman uzayından frekans uzayına
+geçmek veya zaman uzayından zaman frekans uzayına geçmek veya eee
+normal mekansal eee yani spatial eee uzaydan frekans uzayına geçmek gibi
+kavramları kullanıyoruz.
+Peki önemli bazı eee dönüşümler var. Eee ve ben bunları sayacak olursam
+arkadaşlar işte eee Freer ailesi dönüşümleri var. Eee Z dönüşüm ve
+bilineer transformlar var. Ve eee sıkıştırma enerji odaklı DC türevleri
+var. Eee, bu bir de zaman frekans analizinde kullandığımız Vet ailesi
+dönüşümlerim var. Şimdi bunları eee, biraz
+üzerinde duralım. Eee, ne zaman neyi kullanıyoruz onlara bakalım.
+Şimdi Freer ailesi dönüşüm. Freer’in şöyle bir fikri vardı arkadaşlar. eee
+her sinyal uygun koşullar altında farklı frekanslardaki
+sinüs kosinüs dalgalarının toplamı olarak yazılabilir. Yani aslında burada
+demek istiyor ki ben öyle bir eee sinyale sahibim ki bu sinyal aslında ya
+bu sinyal eee bu sistem artık bunu sistem olarak düşünelim. Bu sistem
+aslında birçok sistemin toplamı olarak karşıma gelir.
+Hani ne diyoruz? Örnek olarak verecek olursam
+benim bir f(x) fonksiyonum, buna sistem dersem
+aslında bir fy fonksiyonuyla
+f(z) fonksiyonun toplamı olarak karşıma gelir. Ve bu
+bunlar da sinüs veya kosinüs yani trigonometrik fonksiyonlardır. İşte bu
+f(z)’ye ben gürültü diyebilirim. Bu orijinal veri diyebilirim.
+Bu da gürültülü veri olarak karşıma gelmiş
+olur. Peki madem böyle bir durumum var, ben
+orijinal veriyi, orijinal eee kısmı
+gürültü eklersem gürültülü veriyse
+ben bu gürültülü veriyi dönüşüm sağlayarak acaba
+oradan şu iki eee eee sistemi ortaya çıkartabilir miyim
+diye düşünebiliyoruz. İşte burada arkadaşlar seste biz bunları
+yapabiliyoruz. Eee seste bir fuer dönüşümü yaptığımız zaman ki
+eee derste eee bu slaytın sonunda bir kod da
+vermiştim arkadaşlar. Eee ne yapabiliyoruz? eee
+sesin içerisindeki kısımları çıkartabiliyoruz. Seste hangi frekanslar
+baskın? Temel frekans nedir? Forantlar nedir? Bu kavramları eee inceleyeceğiz
+daha sonra. Eee bunları tespit edebilirsek o zaman ben bunları ayırarak
+aslında gürültülü kısmı ortadan kaldırabiliyorum. Şimdi bu biraz da
+sizin projenize eee denk geliyor arkadaşlar. Şimdi ne yapıyoruz? Orijinal
+bir sesimiz var. Projelerinizde onu yapmanızı istiyorum. Eee orijinal
+sesinizi alıyorsunuz, kaydediyorsunuz. Eee ondan sonra size göndermiş olduğum
+bir eee gitap sitesi vardı. eee o eee yapay zekayla sizin sesinizi yazmış
+olduğunuz eee metnin eee üzerine oturtturuyor ve sahte bir ses üretiyor.
+Amacımız neydi arkadaşlar? Eee o sahte sesleri tespit edebileceğiz mi acaba?
+Şimdi sizin orijinal sesinizden farklıdır. Yani ne olacak? Sizin
+orijinal sesiniz nedir? budur. Sahte seste mutlaka bir gürültü vardır. Yani
+sizden olmayan bir ses vardır. Bu sizin orijinal olmayan sesiniz. Siz aslında
+burada artık bunu tespit edebilen bir sistem yapabilecek misiniz? Peki bunu
+nasıl yapmanız gerekiyor? Çok veri toplayarak
+ve eee burada değişik eee dönüşümler sağlayabilirsiniz. Tabii başka yöntemler
+de var arkadaşlar ama ben sizden acaba eee buradaki dönüşümlerle neler
+yapabilirsiniz? Onu biraz da
+fikirlerinizi oluşturarak neler yapabilirsiniz? eee
+ona göre eee birlikte tartışacağız. Eee onu göndermiştim zaten size. Şimdi
+burada eee ses buna bakabiliyoruz. Görüntüde de hangi uzaysal frekanslar
+baskın? Eğer ben freeer analizi yaparsam kenarlar, dokular tekrar eden desenleri
+tespit edebiliyorum. Burada arkadaşlar analizinde eee genel olarak ü tane eee
+şeyim var, yapım var. Bunlardan bir tanesi sürekli zaman fuer dönüşümü.
+Eee bu sürekli zaman fuer dönüşümü arkadaşlar eee formülleri aslında çok
+yazmak istemiyorum ama şöyle eee yazabilirim.
+eksi sonsuzdan artı sonsuza giden bir sizin zaman içerisindeki
+bir dönüşümünüz burada iki eee
+π t dt e dt şeyde olacak aşağıda olacak.
+Bir de buna j diye bir şey veriyorum. Eee, XT burada zaman uzay uzayındaki
+sinyaliniz arkadaşlar. XP de frekans uzayındaki gösteriminiz. Biz buna
+spektrum adını veriyoruz. Mesela gene siz kendi çalışmalarınızda
+eee, orijinal sesinizin spektrumuna bakıp eee klonlanmış sesin
+spektrumlarına bakıp aradaki farkı bulabilirsiniz. Peki biz bunu nerede
+kullanıyoruz? Genel olarak eee analog filtre tasarımda kullanıyoruz. Bakın
+filtre tasarımı dediğimiz zaman, eee, orijinal sesten, eee,
+klonlanmış ses arasındaki filtre var mı? Ona bakabilirsiniz. Eee, iletişim analog
+ses devrelerinde elektronikte eee, kullanıyoruz veya teorik analiz yaparken
+sistem tepkisine ölçümünde kullanıyoruz. Bu arkadaşlar
+bizim eee sürekli zaman eee serilerinde kullandığımız kısım. Ama tabii siz bunu
+kullanamayacaksınız. Neden kullanamayacaksınız? Çünkü sizin veriniz
+sürekli zaman verisi değil arkadaşlar. O zaman ne yapacaksınız? Ayrık zaman forer
+dönüşümü yapacaksınız. Eee bunun da kendi formülü var. Bunun
+formülü de aslında şu şekilde. Artık burada eee integral işareti yok.
+Bir toplam işareti var. Başlangıç değeri eee eksi sonsuzdan gidiyor.
+Xn. Bakın artık buradaki kısım eee bizim çok rahat şekilde bilgisayarda
+eee hesaplayabileceğimiz bir kısımdır.
+Burada W frekans eee değişkenidir ve süreklidir. Sinyal ayrık
+zamanlıdır. Yani aslında biz burada aylık zaman sürekli bir zamana dönüşüm
+yapma şansına sahibiz. Ama işte gene burada bir problemimiz var arkadaşlar.
+Eee, bilgisayarda yapmış olduğumuz her şey nedir?
+ayrık zamanlıdır, dijitaldir. O yüzden bizim bir başka fonksiyona eee dönüşüme
+ihtiyacımız var. Burada ayrık freeer dönüşümü veya eee hızlı freeer dönüşümü
+adını verdiğimiz kısımdır. Eee onu yapmamız gerekiyor. Eee siz yani
+projelerinizde aslında burayı yapacaksınız. Evet bu iki kavram var.
+Eee, aylık zaman freeer dönüşümü daha çok teorik e bir dönüşümdür. Eee, ideal
+filtre analizi karalık ve sistem tasarımında kullanılan, eee, dönüşümdür.
+Ama gerçek bilgisayar dönüşümüne geldiğimiz zaman arkadaşlar
+biz ayrık hale getirmemiz lazım.
+Eee, yani ayrık örneklerle frekans eksenimizi
+belirlememiz lazım. Bu da şu şekilde çok benziyor. Nereye kadar gidiyor? N
+-1’e kadar gidiyor. Gene Xn var. Gene aynı Ej
+2K N/ N. Burada K
+0’dan N -1’e kadar giden bir
+kısım. Bu hem frekans eksenini ayrık olarak gösteriyor arkadaşlar. eee hem de
+eee çözümüzü veriyor. Bunun için eee Python’da MATLAB’de past free transform
+adını verdiğimiz hızlı freer dönüşümü e algoritmaları var arkadaşlar. Eee bunlar
+eee ayrık freer dönüşümünün, discrete freer transformunun
+eee DFT’nin yani veya Türkçe EFD de diyorlar buna arkadaşlar. AFD pardon e
+demmişim AFD de eee kaynaklarda var. Eee bunun bir sürü bahanesi bulunmakta.
+Bunlar nerede kullanılıyor dersek işte günlük hayatta eee ağırlıkla arkadaşlar
+eee
